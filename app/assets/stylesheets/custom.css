@@ -1,4 +1,24 @@
-.custom-image {
-    width: 30px; /* Cambia 30px por el ancho deseado */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .small-image {
+    width: 30px; /* Ancho de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
+  }
+  .custom-button {
+    margin-top: 10px; /* Espacio entre la imagen y el botón */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
   }
