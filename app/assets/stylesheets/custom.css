@@ -5,9 +5,9 @@
   }
   
   .small-image {
-    width: 30px; /* Ancho de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-right: 10px; /* Espacio a la derecha de la imagen */
+    width: 100px;
+    height: 100px;
+
   }
   .custom-button {
     margin-top: 10px; /* Espacio entre la imagen y el botón */
