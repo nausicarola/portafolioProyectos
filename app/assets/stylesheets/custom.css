@@ -9,16 +9,3 @@
     height: 100px;
 
   }
-  .custom-button {
-    margin-top: 10px; /* Espacio entre la imagen y el botón */
-    background-color: #007bff; /* Color de fondo */
-    color: white; /* Color del texto */
-    border: none; /* Sin borde */
-    padding: 10px 20px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s; /* Transición suave */
-  }
-  
-  .custom-button:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el mouse */
-  }
